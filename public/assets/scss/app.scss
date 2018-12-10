@@ -1,0 +1,94 @@
+//  ---     APP SASS STYLE              ---   //
+//  ---     IDENTATION : 4 spaces       ---   //
+//  ---     Syntax : your-class-name    ---   //
+//  ---     Mq : Insert Mq in nesting   ---   //
+//  ---     Author : Tom L              ---   //
+
+// DEFINE APP'S COLORS
+$app_body_bg : #FFFFFF;
+$app_errors_bg: #F1664F;
+$app_errors_color: #E53935;
+$app_success_color: #48C17B;
+$app_primary_color: #FFD700;
+$app_secondary_color: #F29D06;
+$app_black: #1A2123;
+$app_dark_grey: #929497;
+$app_light_grey: #F4F4F4;
+$app_medium_grey: #E6E7E8;
+$app_blue_grey: #F2F3F9;
+$app_footer_grey: #E6E7E8;
+
+// DEFINE RESPONSIVE BREAK POINTS
+$screen_small_phone: 485px;
+$screen_basic_phone: 767px;
+$screen_vertical_tablet_medium: 991px;
+$screen_vertical_tablet_large: 1024px;
+$screen_small_laptop: 1200px;
+$screen_horizontal_tablet_large: 1366px;
+
+// DEFINE FONTS
+
+// @font-face {
+//     font-family: Montserrat-Bold;
+//     src:
+//         local("Montserrat-Bold"),
+//         url('../fonts/Montserrat-Bold.eot') format('embedded-opentype'),
+//         url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+//         url('../fonts/Montserrat-Bold.woff') format('woff')
+// }
+// @font-face {
+//     font-family: Montserrat-Regular;
+//     src:
+//         local("Montserrat-Regular"),
+//         url('../fonts/Montserrat-Regular.eot') format('embedded-opentype'),
+//         url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+//         url('../fonts/Montserrat-Regular.woff') format('woff')
+// }
+// @font-face {
+//     font-family: Montserrat-Medium;
+//     src:
+//         local("Montserrat-Medium"),
+//         url('../fonts/Montserrat-Medium.eot') format('embedded-opentype'),
+//         url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+//         url('../fonts/Montserrat-Medium.woff') format('woff')
+// }
+// @font-face {
+//     font-family: Montserrat-Light;
+//     src:
+//         local("Montserrat-Light"),
+//         url('../fonts/Montserrat-Light.eot') format('embedded-opentype'),
+//         url('../fonts/Montserrat-Light.ttf') format('truetype'),
+//         url('../fonts/Montserrat-Light.woff') format('woff')
+// }
+// @font-face {
+//     font-family: Oswald-Bold;
+//     src:
+//         local("Oswald-Bold"),
+//         url('../fonts/Oswald-Bold.eot') format('embedded-opentype'),
+//         url('../fonts/Oswald-Bold.ttf') format('truetype'),
+//         url('../fonts/Oswald-Bold.woff') format('woff')
+// }
+// @font-face {
+//     font-family: Oswald-Regular;
+//     src:
+//         local("Oswald-Regular"),
+//         url('../fonts/Oswald-Regular.eot') format('embedded-opentype'),
+//         url('../fonts/Oswald-Regular.ttf') format('truetype'),
+//         url('../fonts/Oswald-Regular.woff') format('woff')
+// }
+// @font-face {
+//     font-family: Oswald-Light;
+//     src:
+//         local("Oswald-Light"),
+//         url('../fonts/Oswald-Light.eot') format('embedded-opentype'),
+//         url('../fonts/Oswald-Light.ttf') format('truetype'),
+//         url('../fonts/Oswald-Light.woff') format('woff')
+// }
+
+@import './views/home.scss';
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: $app_light_grey;
+}
