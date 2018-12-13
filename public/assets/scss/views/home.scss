@@ -1,4 +1,11 @@
-.Home {
-  background-color: gold;
-  color: white
+.Home, .Ex-view {
+  background-color: white;
+  padding: 50px;
+
+  h1 {
+    margin: 0;
+  }
+}
+.Ex-view {
+  background-color: #a8cec7;
 }

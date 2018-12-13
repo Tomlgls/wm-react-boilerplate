@@ -55,6 +55,7 @@
     "phantomjs-prebuilt": "^2.1.14",
     "redux-devtools-extension": "^2.13.7",
     "time-grunt": "^1.0.0",
+    "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   },
   "engines": {

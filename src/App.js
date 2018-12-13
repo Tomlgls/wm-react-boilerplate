@@ -3,17 +3,20 @@ import {
   BrowserRouter as Router,
   Route,
   Redirect,
+  Link,
   Switch
 } from 'react-router-dom';
 
 import Home from './views/Home';
 
+import'./app.css';
+
 const renderExView = () => {
-  return <div>I am a view.</div>
+  return <div className="Ex-view">I am a view.</div>
 }
 
 const render404 = () => {
-  return <div>404 Page.</div>
+  return <h1>404 Page.</h1>
 }
 
 class App extends Component {
@@ -23,9 +26,15 @@ class App extends Component {
         <Router>
           <div className="react-root-class">
 
-            <header>
+            <header className="Header">
               <h1>React redux WM boilerplate</h1>
             </header>
+
+            <ul>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/ex-view">Ex view</Link></li>
+              <li><Link to="/azdazdazdazddaz">404</Link></li>
+            </ul>
 
             <Switch>
               <Route exact path="/" component={Home} />
@@ -48,7 +57,7 @@ class App extends Component {
               <Redirect from="*" to="/notFound" />
             </Switch>
 
-            <footer>
+            <footer className="Footer">
               Wall-Market
             </footer>
 

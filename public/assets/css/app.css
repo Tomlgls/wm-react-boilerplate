@@ -1,8 +1,16 @@
-.Home {
-  background-color: gold;
-  color: white; }
+.Home, .Ex-view {
+  background-color: white;
+  padding: 50px; }
+  .Home h1, .Ex-view h1 {
+    margin: 0; }
+
+.Ex-view {
+  background-color: #a8cec7; }
 
 body, html {
   height: 100%;
   width: 100%;
-  background-color: #F4F4F4; }
+  font-family: Arial;
+  background-color: #F4F4F4;
+  padding: 0;
+  margin: 0; }
